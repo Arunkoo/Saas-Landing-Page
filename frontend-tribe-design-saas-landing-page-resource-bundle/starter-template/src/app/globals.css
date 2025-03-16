@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.maskimage {
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        black 10%,
+        black 90%,
+        transparent
+    );
+    mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        black 10%,
+        black 90%,
+        transparent
+    );
+}
+.maskimage2 {
+    -webkit-mask-image: linear-gradient(
+        to right,
+        transparent,
+        black 40%,
+        black 90%,
+        transparent
+    );
+    mask-image: linear-gradient(
+        to right,
+        transparent,
+        black 40%,
+        black 90%,
+        transparent
+    );
+}
+.hero-section {
+    cursor: url(../assets/images/cursor-you.svg), auto;
+}
